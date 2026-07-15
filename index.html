@@ -228,12 +228,14 @@
                 card.innerHTML = `
                     <div class="p-5 flex-grow flex flex-col">
                         <div class="flex justify-between items-start mb-2">
+                          <a href="${item.link}" target="_blank">
                             <h2 class="text-lg font-bold text-gray-900 leading-tight">${item.name}</h2>
+                          </a>
                         </div>
                         <p class="text-xs text-gray-500 mb-3">${item.priceText || '価格未設定'}</p>
                         
                         <p class="text-sm text-gray-600 mb-4 flex-grow line-clamp-3" title="${item.description}">
-                            ${item.description || '説明がありません'}
+                            ${item.description || ''}
                         </p>
                         
                         <div class="bg-gray-50 rounded-lg p-3 mb-4 text-xs">
@@ -290,12 +292,12 @@
             const salt = getNutrientString(item.nut, '食塩相当量');
 
             // タイトルと説明文の作成（指定されたフォーマットに準拠）
-            const title = `食べた：${item.name} ${energy}`;
-            const details = `${item.link}\nたんぱく質 ${protein}\n脂質 ${fat}\n炭水化物 ${carbo}\n食塩相当量 ${salt}`;
+            const title = `${item.name} ${energy}`;
+            const details = `マクドナルド\n${item.link}\n${item.nut.filter(n => !n.includes('エネルギー')).join('\n')}`;
 
             // 日時の設定 (クリックした「現在時刻」を開始、30分後を終了とする)
             const now = new Date();
-            const end = new Date(now.getTime() + 30 * 60000); // 30分追加
+            const end = new Date(now.getTime());
 
             // Googleカレンダー用のフォーマット YYYYMMDDTHHMMSSZ (UTC)
             const formatToUTC = (date) => {
