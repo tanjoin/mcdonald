@@ -49,27 +49,44 @@
     </header>
 
     <main class="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
-        <div class="mb-6 bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex flex-col sm:flex-row gap-4 justify-between items-center">
-            <div id="statusMessage" class="text-sm text-gray-600"></div>
-            
-            <div class="flex items-center gap-2 w-full sm:w-auto">
-                <label for="sortSelect" class="text-sm font-medium text-gray-700 whitespace-nowrap">並び替え:</label>
-                <select id="sortSelect" class="block w-full sm:w-auto pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md bg-gray-50">
-                    <option value="name_asc">名前 (昇順)</option>
-                    <option value="name_desc">名前 (降順)</option>
-                    <option value="price_asc">価格 (安い順)</option>
-                    <option value="price_desc">価格 (高い順)</option>
-                    <option value="energy_asc">エネルギー (低い順)</option>
-                    <option value="energy_desc">エネルギー (高い順)</option>
-                    <option value="protein_desc">たんぱく質 (多い順)</option>
-                    <option value="protein_asc">たんぱく質 (少ない順)</option>
-                    <option value="fat_asc">脂質 (少ない順)</option>
-                    <option value="fat_desc">脂質 (多い順)</option>
-                    <option value="carbo_asc">炭水化物 (少ない順)</option>
-                    <option value="carbo_desc">炭水化物 (多い順)</option>
-                    <option value="salt_asc">食塩相当量 (少ない順)</option>
-                    <option value="salt_desc">食塩相当量 (多い順)</option>
-                </select>
+        <div class="mb-6 bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+            <div class="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
+                <div id="statusMessage" class="text-sm text-gray-600"></div>
+
+                <div class="flex items-center gap-2 w-full sm:w-auto">
+                    <label for="sortSelect" class="text-sm font-medium text-gray-700 whitespace-nowrap">並び替え:</label>
+                    <select id="sortSelect" class="block w-full sm:w-auto pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md bg-gray-50">
+                        <option value="name_asc">名前 (昇順)</option>
+                        <option value="name_desc">名前 (降順)</option>
+                        <option value="price_asc">価格 (安い順)</option>
+                        <option value="price_desc">価格 (高い順)</option>
+                        <option value="energy_asc">エネルギー (低い順)</option>
+                        <option value="energy_desc">エネルギー (高い順)</option>
+                        <option value="protein_desc">たんぱく質 (多い順)</option>
+                        <option value="protein_asc">たんぱく質 (少ない順)</option>
+                        <option value="fat_asc">脂質 (少ない順)</option>
+                        <option value="fat_desc">脂質 (多い順)</option>
+                        <option value="carbo_asc">炭水化物 (少ない順)</option>
+                        <option value="carbo_desc">炭水化物 (多い順)</option>
+                        <option value="salt_asc">食塩相当量 (少ない順)</option>
+                        <option value="salt_desc">食塩相当量 (多い順)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-4 border-t border-gray-100">
+                <div class="flex items-center gap-2 flex-wrap">
+                    <button type="button" id="toggleAllUnknownButton" class="px-3 py-2 rounded-full text-xs font-semibold border transition-colors duration-150"></button>
+                    <button type="button" id="toggleUnknownDetailButton" class="px-3 py-2 rounded-full text-xs font-semibold border border-gray-300 text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-150" aria-expanded="false" aria-controls="unknownFilterButtons">詳細を開く</button>
+                </div>
+
+                <div class="hidden mt-2 flex items-center flex-wrap gap-2" id="unknownFilterButtons" aria-label="フィルター詳細">
+                    <button type="button" class="unknown-filter-btn px-3 py-2 rounded-full text-xs font-semibold border transition-colors duration-150" data-nutrient="energy" data-label="エネルギー">エネルギー: 除外中</button>
+                    <button type="button" class="unknown-filter-btn px-3 py-2 rounded-full text-xs font-semibold border transition-colors duration-150" data-nutrient="protein" data-label="たんぱく質">たんぱく質: 除外中</button>
+                    <button type="button" class="unknown-filter-btn px-3 py-2 rounded-full text-xs font-semibold border transition-colors duration-150" data-nutrient="fat" data-label="脂質">脂質: 除外中</button>
+                    <button type="button" class="unknown-filter-btn px-3 py-2 rounded-full text-xs font-semibold border transition-colors duration-150" data-nutrient="carbo" data-label="炭水化物">炭水化物: 除外中</button>
+                    <button type="button" class="unknown-filter-btn px-3 py-2 rounded-full text-xs font-semibold border transition-colors duration-150" data-nutrient="salt" data-label="食塩">食塩: 除外中</button>
+                </div>
             </div>
         </div>
         
@@ -97,7 +114,24 @@
     <script>
         let allMenuItems = [];
         let filteredItems = [];
-        let currentSort = 'name_asc';
+        let currentSort = 'energy_desc';
+        let searchQuery = '';
+
+        const nutrientConfig = {
+            energy: 'エネルギー',
+            protein: 'たんぱく質',
+            fat: '脂質',
+            carbo: '炭水化物',
+            salt: '食塩相当量'
+        };
+
+        const unknownFilterState = {
+            energy: false,
+            protein: false,
+            fat: false,
+            carbo: false,
+            salt: false
+        };
 
         // DOM Elements
         const searchInput = document.getElementById('searchInput');
@@ -105,6 +139,10 @@
         const menuGrid = document.getElementById('menuGrid');
         const emptyState = document.getElementById('emptyState');
         const statusMessage = document.getElementById('statusMessage');
+        const toggleAllUnknownButton = document.getElementById('toggleAllUnknownButton');
+        const toggleUnknownDetailButton = document.getElementById('toggleUnknownDetailButton');
+        const unknownFilterButtonsContainer = document.getElementById('unknownFilterButtons');
+        const unknownFilterButtons = document.querySelectorAll('.unknown-filter-btn');
 
         async function loadData() {
             try {
@@ -124,8 +162,10 @@
             }
             
             // UI初期化
-            filteredItems = [...allMenuItems];
-            sortItems(); // 初期表示時にソートを適用して描画
+            sortSelect.value = currentSort;
+            updateUnknownFilterButtonStyles();
+            updateUnknownMasterButtonStyle();
+            applyFiltersAndSort();
         }
 
         // 栄養素配列から特定のキーの値（数値）を取り出す関数（ソート用）
@@ -146,9 +186,17 @@
             if (!nutArray || !Array.isArray(nutArray)) return "不明";
             const target = nutArray.find(item => item.startsWith(keyName));
             if (target) {
-                return target.replace(keyName, '').trim();
+                const value = target.replace(keyName, '').trim();
+                return value || "不明";
             }
             return "不明";
+        }
+
+        function isUnknownValue(value) {
+            if (value == null) return true;
+            const normalized = String(value).trim();
+            if (!normalized) return true;
+            return /^(不明|[-ー―‐－–—]+|N\/A|n\/a|なし)$/i.test(normalized);
         }
 
         function sortItems() {
@@ -198,6 +246,91 @@
             });
 
             renderMenuGrid();
+        }
+
+        function updateUnknownFilterButtonStyles() {
+            unknownFilterButtons.forEach((button) => {
+                const nutrient = button.dataset.nutrient;
+                const label = button.dataset.label || nutrient;
+                const enabled = unknownFilterState[nutrient];
+                button.setAttribute('aria-pressed', String(enabled));
+                button.textContent = `${label}: ${enabled ? '表示中' : '除外中'}`;
+
+                if (enabled) {
+                    button.classList.remove('bg-white', 'text-gray-600', 'border-gray-300');
+                    button.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
+                } else {
+                    button.classList.remove('bg-blue-600', 'text-white', 'border-blue-600');
+                    button.classList.add('bg-white', 'text-gray-600', 'border-gray-300');
+                }
+            });
+        }
+
+        function updateUnknownMasterButtonStyle() {
+            const values = Object.values(unknownFilterState);
+            const allEnabled = values.every(Boolean);
+            const allDisabled = values.every(v => !v);
+
+            toggleAllUnknownButton.classList.remove(
+                'bg-blue-600',
+                'text-white',
+                'border-blue-600',
+                'bg-white',
+                'text-gray-700',
+                'border-gray-300',
+                'bg-amber-100',
+                'text-amber-800',
+                'border-amber-300'
+            );
+
+            if (allEnabled) {
+                toggleAllUnknownButton.textContent = '不明値: すべて表示中';
+                toggleAllUnknownButton.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
+            } else if (allDisabled) {
+                toggleAllUnknownButton.textContent = '不明値: すべて除外中';
+                toggleAllUnknownButton.classList.add('bg-white', 'text-gray-700', 'border-gray-300');
+            } else {
+                toggleAllUnknownButton.textContent = '不明値: 一部表示中';
+                toggleAllUnknownButton.classList.add('bg-amber-100', 'text-amber-800', 'border-amber-300');
+            }
+        }
+
+        function isUnknownNutrient(item, nutrientKey) {
+            const value = getNutrientString(item.nut, nutrientConfig[nutrientKey]);
+            return isUnknownValue(value);
+        }
+
+        function parseOrTerms(query) {
+            const normalized = query.trim();
+            if (!normalized) return [];
+
+            return normalized
+                .split(/\s+or\s+/i)
+                .map(term => term.trim())
+                .filter(Boolean);
+        }
+
+        function applyFiltersAndSort() {
+            const orTerms = parseOrTerms(searchQuery);
+
+            filteredItems = allMenuItems.filter(item => {
+                const searchable = `${item.name || ''} ${item.description || ''}`.toLowerCase();
+                const queryMatch = orTerms.length === 0
+                    ? true
+                    : orTerms.some(term => searchable.includes(term));
+
+                if (!queryMatch) return false;
+
+                for (const nutrientKey of Object.keys(unknownFilterState)) {
+                    if (!unknownFilterState[nutrientKey] && isUnknownNutrient(item, nutrientKey)) {
+                        return false;
+                    }
+                }
+
+                return true;
+            });
+
+            sortItems();
         }
 
         function renderMenuGrid() {
@@ -266,18 +399,42 @@
         }
 
         searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
-            filteredItems = allMenuItems.filter(item => {
-                const nameMatch = item.name && item.name.toLowerCase().includes(query);
-                const descMatch = item.description && item.description.toLowerCase().includes(query);
-                return nameMatch || descMatch;
-            });
-            sortItems(); // 絞り込み後、現在のソート順で再描画
+            searchQuery = e.target.value.toLowerCase();
+            applyFiltersAndSort();
         });
 
         sortSelect.addEventListener('change', (e) => {
             currentSort = e.target.value;
             sortItems();
+        });
+
+        unknownFilterButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                const nutrient = button.dataset.nutrient;
+                unknownFilterState[nutrient] = !unknownFilterState[nutrient];
+                updateUnknownFilterButtonStyles();
+                updateUnknownMasterButtonStyle();
+                applyFiltersAndSort();
+            });
+        });
+
+        toggleAllUnknownButton.addEventListener('click', () => {
+            const shouldEnable = !Object.values(unknownFilterState).every(Boolean);
+
+            Object.keys(unknownFilterState).forEach((nutrientKey) => {
+                unknownFilterState[nutrientKey] = shouldEnable;
+            });
+
+            updateUnknownFilterButtonStyles();
+            updateUnknownMasterButtonStyle();
+            applyFiltersAndSort();
+        });
+
+        toggleUnknownDetailButton.addEventListener('click', () => {
+            const isHidden = unknownFilterButtonsContainer.classList.contains('hidden');
+            unknownFilterButtonsContainer.classList.toggle('hidden', !isHidden);
+            toggleUnknownDetailButton.setAttribute('aria-expanded', String(isHidden));
+            toggleUnknownDetailButton.textContent = isHidden ? '詳細を閉じる' : '詳細を開く';
         });
 
         function addToCalendar(index) {
@@ -321,6 +478,10 @@
             // 新しいタブで開く
             window.open(calendarUrl, '_blank');
         }
+
+        updateUnknownFilterButtonStyles();
+        updateUnknownMasterButtonStyle();
+        sortSelect.value = currentSort;
 
         // アプリケーション起動
         window.onload = loadData;
