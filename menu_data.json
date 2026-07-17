@@ -2483,7 +2483,7 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/800054/",
+    "link": "https://www.mcdonalds.co.jp/products/800049/",
     "name": "チキンマックナゲット® ハッピーセット®",
     "priceText": "ハッピーセット¥540~",
     "price": "540",
@@ -2498,7 +2498,7 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/800049/",
+    "link": "https://www.mcdonalds.co.jp/products/800054/",
     "name": "チキンマックナゲット® ハッピーセット®",
     "priceText": "ハッピーセット¥540~",
     "price": "540",
@@ -3169,10 +3169,10 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/800475/",
+    "link": "https://www.mcdonalds.co.jp/products/800474/",
     "name": "フィレオフィッシュ® セット",
-    "priceText": "バリューセット¥610~",
-    "price": "610",
+    "priceText": "バリューセット¥690~",
+    "price": "690",
     "description": "",
     "nut": [],
     "notice": [
@@ -3181,10 +3181,10 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/800474/",
+    "link": "https://www.mcdonalds.co.jp/products/800475/",
     "name": "フィレオフィッシュ® セット",
-    "priceText": "バリューセット¥690~",
-    "price": "690",
+    "priceText": "バリューセット¥610~",
+    "price": "610",
     "description": "",
     "nut": [],
     "notice": [
@@ -3222,7 +3222,7 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/800056/",
+    "link": "https://www.mcdonalds.co.jp/products/800052/",
     "name": "プチパンケーキ ハッピーセット®",
     "priceText": "ハッピーセット¥510~",
     "price": "510",
@@ -3237,7 +3237,7 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/800052/",
+    "link": "https://www.mcdonalds.co.jp/products/800056/",
     "name": "プチパンケーキ ハッピーセット®",
     "priceText": "ハッピーセット¥510~",
     "price": "510",
