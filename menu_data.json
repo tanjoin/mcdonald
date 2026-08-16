@@ -22,8 +22,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3604/#pdpNutrition",
     "name": "Qoo 白ぶどう (Mサイズ)",
-    "priceText": "Mサイズ¥290~",
-    "price": "290",
+    "priceText": "Mサイズ¥150~",
+    "price": "150",
     "description": "「おいしい、たのしい、体にいい」が基本コンセプトの果汁入り飲料。白ぶどうの爽やかな甘さと果汁感が楽しめます。",
     "nut": [
       "エネルギー    149kcal",
@@ -42,8 +42,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3603/#pdpNutrition",
     "name": "Qoo 白ぶどう (Sサイズ)",
-    "priceText": "Sサイズ¥160~",
-    "price": "160",
+    "priceText": "Sサイズ¥150~",
+    "price": "150",
     "description": "「おいしい、たのしい、体にいい」が基本コンセプトの果汁入り飲料。白ぶどうの爽やかな甘さと果汁感が楽しめます。",
     "nut": [
       "エネルギー    96kcal",
@@ -998,8 +998,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3120/#pdpNutrition",
     "name": "コカ・コーラ (Mサイズ)",
-    "priceText": "Mサイズ¥290~",
-    "price": "290",
+    "priceText": "Mサイズ¥150~",
+    "price": "150",
     "description": "深いコクと喉にはじける刺激で、すべての人々を心身ともにリフレッシュし、楽しさまで届けてくれるドリンクです。",
     "nut": [
       "エネルギー    145kcal",
@@ -1017,8 +1017,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3110/#pdpNutrition",
     "name": "コカ・コーラ (Sサイズ)",
-    "priceText": "Sサイズ¥160~",
-    "price": "160",
+    "priceText": "Sサイズ¥150~",
+    "price": "150",
     "description": "深いコクと喉にはじける刺激で、すべての人々を心身ともにリフレッシュし、楽しさまで届けてくれるドリンクです。",
     "nut": [
       "エネルギー    94kcal",
@@ -1055,8 +1055,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3271/#pdpNutrition",
     "name": "コカ・コーラ ゼロ (Mサイズ)",
-    "priceText": "Mサイズ¥290~",
-    "price": "290",
+    "priceText": "Mサイズ¥150~",
+    "price": "150",
     "description": "コカ･コーラのおいしさをカロリーゼロ・糖分ゼロでお楽しみいただけます。",
     "nut": [
       "エネルギー    0kcal",
@@ -1074,8 +1074,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3270/#pdpNutrition",
     "name": "コカ・コーラ ゼロ (Sサイズ)",
-    "priceText": "Sサイズ¥160~",
-    "price": "160",
+    "priceText": "Sサイズ¥150~",
+    "price": "150",
     "description": "コカ･コーラのおいしさをカロリーゼロ・糖分ゼロでお楽しみいただけます。",
     "nut": [
       "エネルギー    0kcal",
@@ -1281,8 +1281,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3701/#pdpNutrition",
     "name": "スプライト (Mサイズ)",
-    "priceText": "Mサイズ¥290~",
-    "price": "290",
+    "priceText": "Mサイズ¥150~",
+    "price": "150",
     "description": "はじける炭酸の刺激と、レモンライムフレーバーのさわやかな味わいをお楽しみいただけます。",
     "nut": [
       "エネルギー    128kcal",
@@ -1301,8 +1301,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3700/#pdpNutrition",
     "name": "スプライト (Sサイズ)",
-    "priceText": "Sサイズ¥160~",
-    "price": "160",
+    "priceText": "Sサイズ¥150~",
+    "price": "150",
     "description": "はじける炭酸の刺激と、レモンライムフレーバーのさわやかな味わいをお楽しみいただけます。",
     "nut": [
       "エネルギー    83kcal",
@@ -2146,8 +2146,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3402/#pdpNutrition",
     "name": "ファンタ グレープ (Mサイズ)",
-    "priceText": "Mサイズ¥290~",
-    "price": "290",
+    "priceText": "Mサイズ¥150~",
+    "price": "150",
     "description": "楽しく親しみやすいイメージで、若い層を中心に幅広い人々から支持を受け続けているグレープのフレーバー炭酸飲料です。",
     "nut": [
       "エネルギー    164kcal",
@@ -2166,8 +2166,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3400/#pdpNutrition",
     "name": "ファンタ グレープ (Sサイズ)",
-    "priceText": "Sサイズ¥160~",
-    "price": "160",
+    "priceText": "Sサイズ¥150~",
+    "price": "150",
     "description": "楽しく親しみやすいイメージで、若い層を中心に幅広い人々から支持を受け続けているグレープのフレーバー炭酸飲料です。",
     "nut": [
       "エネルギー    106kcal",
@@ -2206,8 +2206,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3411/#pdpNutrition",
     "name": "ファンタ メロン (Mサイズ)",
-    "priceText": "Mサイズ¥290~",
-    "price": "290",
+    "priceText": "Mサイズ¥150~",
+    "price": "150",
     "description": "ファンタからメロンフレーバーが登場。メロン風味の爽やかな味わいと炭酸の刺激の心地よさをお楽しみください。",
     "nut": [
       "エネルギー    164kcal",
@@ -2226,8 +2226,8 @@
   {
     "link": "https://www.mcdonalds.co.jp/products/3410/#pdpNutrition",
     "name": "ファンタ メロン (Sサイズ)",
-    "priceText": "Sサイズ¥160~",
-    "price": "160",
+    "priceText": "Sサイズ¥150~",
+    "price": "150",
     "description": "ファンタからメロンフレーバーが登場。メロン風味の爽やかな味わいと炭酸の刺激の心地よさをお楽しみください。",
     "nut": [
       "エネルギー    106kcal",
@@ -3477,10 +3477,10 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/2050/#pdpNutrition",
-    "name": "マックフライポテト® (Lサイズ)",
-    "priceText": "Lサイズ¥400~",
-    "price": "400",
+    "link": "https://www.mcdonalds.co.jp/products/2050/",
+    "name": "マックフライポテト®(L)",
+    "priceText": "単品¥250~",
+    "price": "250",
     "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
     "nut": [
       "エネルギー    517kcal",
@@ -3496,48 +3496,10 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/2050/#pdpNutrition",
-    "name": "マックフライポテト® (Lサイズ)",
-    "priceText": "Lサイズ¥400~",
-    "price": "400",
-    "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
-    "nut": [
-      "エネルギー    517kcal",
-      "たんぱく質    7.0g",
-      "脂質    25.2g",
-      "飽和脂肪酸    9.45g",
-      "炭水化物    66.0g",
-      "糖類    1g",
-      "食塩相当量    0.9g"
-    ],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/2050/#pdpNutrition",
-    "name": "マックフライポテト® (Lサイズ)",
-    "priceText": "Lサイズ¥400~",
-    "price": "400",
-    "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
-    "nut": [
-      "エネルギー    517kcal",
-      "たんぱく質    7.0g",
-      "脂質    25.2g",
-      "飽和脂肪酸    9.45g",
-      "炭水化物    66.0g",
-      "糖類    1g",
-      "食塩相当量    0.9g"
-    ],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/2020/#pdpNutrition",
-    "name": "マックフライポテト® (Mサイズ)",
-    "priceText": "Mサイズ¥350~",
-    "price": "350",
+    "link": "https://www.mcdonalds.co.jp/products/2020/",
+    "name": "マックフライポテト®(M)",
+    "priceText": "単品¥250~",
+    "price": "250",
     "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
     "nut": [
       "エネルギー    410kcal",
@@ -3553,85 +3515,9 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/2020/#pdpNutrition",
-    "name": "マックフライポテト® (Mサイズ)",
-    "priceText": "Mサイズ¥350~",
-    "price": "350",
-    "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
-    "nut": [
-      "エネルギー    410kcal",
-      "たんぱく質    5.5g",
-      "脂質    20.0g",
-      "飽和脂肪酸    7.51g",
-      "炭水化物    52.4g",
-      "糖類    0g",
-      "食塩相当量    0.8g"
-    ],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/2020/#pdpNutrition",
-    "name": "マックフライポテト® (Mサイズ)",
-    "priceText": "Mサイズ¥350~",
-    "price": "350",
-    "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
-    "nut": [
-      "エネルギー    410kcal",
-      "たんぱく質    5.5g",
-      "脂質    20.0g",
-      "飽和脂肪酸    7.51g",
-      "炭水化物    52.4g",
-      "糖類    0g",
-      "食塩相当量    0.8g"
-    ],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/2010/#pdpNutrition",
-    "name": "マックフライポテト® (Sサイズ)",
-    "priceText": "Sサイズ¥220~",
-    "price": "220",
-    "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
-    "nut": [
-      "エネルギー    225kcal",
-      "たんぱく質    3.0g",
-      "脂質    11.0g",
-      "飽和脂肪酸    4.11g",
-      "炭水化物    28.7g",
-      "糖類    0g",
-      "食塩相当量    0.4g"
-    ],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/2010/#pdpNutrition",
-    "name": "マックフライポテト® (Sサイズ)",
-    "priceText": "Sサイズ¥220~",
-    "price": "220",
-    "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
-    "nut": [
-      "エネルギー    225kcal",
-      "たんぱく質    3.0g",
-      "脂質    11.0g",
-      "飽和脂肪酸    4.11g",
-      "炭水化物    28.7g",
-      "糖類    0g",
-      "食塩相当量    0.4g"
-    ],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/2010/#pdpNutrition",
-    "name": "マックフライポテト® (Sサイズ)",
-    "priceText": "Sサイズ¥220~",
+    "link": "https://www.mcdonalds.co.jp/products/2010/",
+    "name": "マックフライポテト®(S)",
+    "priceText": "単品¥220~",
     "price": "220",
     "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
     "nut": [
