@@ -3442,9 +3442,9 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/2050/",
-    "name": "マックフライポテト®(L)",
-    "priceText": "単品¥400~",
+    "link": "https://www.mcdonalds.co.jp/products/2050/#pdpNutrition",
+    "name": "マックフライポテト® (Lサイズ)",
+    "priceText": "Lサイズ¥400~",
     "price": "400",
     "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
     "nut": [
@@ -3461,9 +3461,9 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/2020/",
-    "name": "マックフライポテト®(M)",
-    "priceText": "単品¥350~",
+    "link": "https://www.mcdonalds.co.jp/products/2020/#pdpNutrition",
+    "name": "マックフライポテト® (Mサイズ)",
+    "priceText": "Mサイズ¥350~",
     "price": "350",
     "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
     "nut": [
@@ -3480,9 +3480,9 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/2010/",
-    "name": "マックフライポテト®(S)",
-    "priceText": "単品¥220~",
+    "link": "https://www.mcdonalds.co.jp/products/2010/#pdpNutrition",
+    "name": "マックフライポテト® (Sサイズ)",
+    "priceText": "Sサイズ¥220~",
     "price": "220",
     "description": "外はカリッとゴールデンブラウン。中はホクホクとベイクドポテトのような食感。こだわりぬいた、マクドナルドのベストセラー。",
     "nut": [
