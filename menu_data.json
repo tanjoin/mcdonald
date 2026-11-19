@@ -1399,6 +1399,17 @@
     ]
   },
   {
+    "link": "https://www.mcdonalds.co.jp/products/801846/",
+    "name": "チーズチーズダブルチーズバーガーデザートセット",
+    "priceText": "バリューセット¥1,010~",
+    "price": "1010",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
     "link": "https://www.mcdonalds.co.jp/products/1910/",
     "name": "チーズチーズてりやきマックバーガー",
     "priceText": "単品¥470~",
@@ -1423,6 +1434,17 @@
     "name": "チーズチーズてりやきマックバーガー セット",
     "priceText": "バリューセット¥770~",
     "price": "770",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801847/",
+    "name": "チーズチーズてりやきマックバーガーデザートセット",
+    "priceText": "バリューセット¥950~",
+    "price": "950",
     "description": "",
     "nut": [],
     "notice": [
