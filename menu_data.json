@@ -948,6 +948,70 @@
     ]
   },
   {
+    "link": "https://www.mcdonalds.co.jp/products/6500/",
+    "name": "グラコロ®",
+    "priceText": "単品¥460~",
+    "price": "460",
+    "description": "えびとマカロニ入りのクリーミーなグラタンコロッケを、リニューアルしたふわふわの特製の蒸しバンズではさんだ冬だけの一品。",
+    "nut": [
+      "エネルギー    423kcal",
+      "たんぱく質    10.6g",
+      "脂質    22.2g",
+      "飽和脂肪酸    5.49g",
+      "炭水化物    46.3g",
+      "糖類    8g",
+      "食塩相当量    1.8g"
+    ],
+    "notice": [
+      "※中身が熱いことがありますのでやけどにご注意ください。",
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801818/",
+    "name": "グラコロ® セット",
+    "priceText": "バリューセット¥760~",
+    "price": "760",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801819/",
+    "name": "グラコロ® セット",
+    "priceText": "バリューセット¥660~",
+    "price": "660",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801830/",
+    "name": "グラコロ® デザートセット",
+    "priceText": "バリューセット¥1,190~",
+    "price": "1190",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801820/",
+    "name": "グラコロ®コンビ",
+    "priceText": "コンビ¥520~",
+    "price": "520",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗では価格が異なります。"
+    ]
+  },
+  {
     "link": "https://www.mcdonalds.co.jp/products/8005/",
     "name": "コーヒーフレッシュ",
     "priceText": "",
@@ -1079,6 +1143,59 @@
     ]
   },
   {
+    "link": "https://www.mcdonalds.co.jp/products/6510/",
+    "name": "コク旨ボロネーゼグラコロ",
+    "priceText": "単品¥510~",
+    "price": "510",
+    "description": "グラコロ®に、牛肉の旨みとトマトのコクが特長の濃厚な味わいのボロネーゼフィリングを合わせた一品が、期間限定で新登場。",
+    "nut": [
+      "エネルギー    462kcal",
+      "たんぱく質    12.0g",
+      "脂質    24.5g",
+      "飽和脂肪酸    6.27g",
+      "炭水化物    49.4g",
+      "糖類    10g",
+      "食塩相当量    2.2g"
+    ],
+    "notice": [
+      "※中身が熱いことがありますのでやけどにご注意ください。",
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801821/",
+    "name": "コク旨ボロネーゼグラコロ セット",
+    "priceText": "バリューセット¥810~",
+    "price": "810",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801822/",
+    "name": "コク旨ボロネーゼグラコロ セット",
+    "priceText": "バリューセット¥710~",
+    "price": "710",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
+    "link": "https://www.mcdonalds.co.jp/products/801823/",
+    "name": "コク旨ボロネーゼグラコロコンビ",
+    "priceText": "コンビ¥570~",
+    "price": "570",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗では価格が異なります。"
+    ]
+  },
+  {
     "link": "https://www.mcdonalds.co.jp/products/2200/",
     "name": "サイドサラダ",
     "priceText": "単品¥350~",
@@ -1117,18 +1234,18 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/6030/",
-    "name": "シャカシャカポテト® やみつきブラックペッパーシーズニング",
+    "link": "https://www.mcdonalds.co.jp/products/6530/",
+    "name": "シャカシャカポテト® ビーフガーリック醤油味シーズニング",
     "priceText": "単品¥50~",
     "price": "50",
-    "description": "ブラックペッパーのピリッとしたアクセントと、ビーフのうま味がマックフライポテト®と相性抜群の一品です。",
+    "description": "ビーフ、ガーリックと醤油のそれぞれの旨みとコクが絶妙に合わさった、マックフライポテト®と相性抜群の一品。",
     "nut": [
-      "エネルギー    8kcal",
-      "たんぱく質    0.4g",
+      "エネルギー    7kcal",
+      "たんぱく質    0.5g",
       "脂質    0.1g",
-      "飽和脂肪酸    0.03g",
-      "炭水化物    1.4g",
-      "糖類    1g",
+      "飽和脂肪酸    0.04g",
+      "炭水化物    1.1g",
+      "糖類    0g",
       "食塩相当量    0.7g"
     ],
     "notice": [
@@ -1368,90 +1485,6 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/1900/",
-    "name": "チーズチーズダブルチーズバーガー",
-    "priceText": "単品¥550~",
-    "price": "550",
-    "description": "人気のレギュラーメニュー「ダブルチーズバーガー」に、ホワイトチェダーチーズを2枚加えたチーズ好きにはたまらない一品。",
-    "nut": [
-      "エネルギー    561kcal",
-      "たんぱく質    32.4g",
-      "脂質    33.2g",
-      "飽和脂肪酸    17.08g",
-      "炭水化物    33.1g",
-      "糖類    7g",
-      "食塩相当量    4.0g"
-    ],
-    "notice": [
-      "※スライスチーズはプロセスチーズを使用しています。",
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/800144/",
-    "name": "チーズチーズダブルチーズバーガー セット",
-    "priceText": "バリューセット¥830~",
-    "price": "830",
-    "description": "",
-    "nut": [],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/801846/",
-    "name": "チーズチーズダブルチーズバーガーデザートセット",
-    "priceText": "バリューセット¥1,010~",
-    "price": "1010",
-    "description": "",
-    "nut": [],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/1910/",
-    "name": "チーズチーズてりやきマックバーガー",
-    "priceText": "単品¥470~",
-    "price": "470",
-    "description": "人気のレギュラーメニュー「てりやきマックバーガー」に、ホワイトチェダーチーズとチェダーチーズを加えたコク深い一品。",
-    "nut": [
-      "エネルギー    586kcal",
-      "たんぱく質    20.1g",
-      "脂質    39.3g",
-      "飽和脂肪酸    14.39g",
-      "炭水化物    38.7g",
-      "糖類    8g",
-      "食塩相当量    3.2g"
-    ],
-    "notice": [
-      "※スライスチーズはプロセスチーズを使用しています。",
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/800145/",
-    "name": "チーズチーズてりやきマックバーガー セット",
-    "priceText": "バリューセット¥770~",
-    "price": "770",
-    "description": "",
-    "nut": [],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/801847/",
-    "name": "チーズチーズてりやきマックバーガーデザートセット",
-    "priceText": "バリューセット¥950~",
-    "price": "950",
-    "description": "",
-    "nut": [],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
     "link": "https://www.mcdonalds.co.jp/products/1020/",
     "name": "チーズバーガー",
     "priceText": "単品¥240~",
@@ -1487,48 +1520,6 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/1930/",
-    "name": "チーチーダブチソーセージマフィン",
-    "priceText": "単品¥490~",
-    "price": "490",
-    "description": "ソーセージパティ2枚とチェダー&ホワイトチェダーチーズを2枚ずつ合わせ、マフィンでサンドしたボリューム満点の朝限定商品。",
-    "nut": [
-      "エネルギー    745kcal",
-      "たんぱく質    30.6g",
-      "脂質    54.6g",
-      "飽和脂肪酸    23.11g",
-      "炭水化物    32.7g",
-      "糖類    6g",
-      "食塩相当量    4.3g"
-    ],
-    "notice": [
-      "※スライスチーズはプロセスチーズを使用しています。",
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/801789/",
-    "name": "チーチーダブチソーセージマフィン セット",
-    "priceText": "バリューセット¥690~",
-    "price": "690",
-    "description": "",
-    "nut": [],
-    "notice": [
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/801790/",
-    "name": "チーチーダブチソーセージマフィンコンビ",
-    "priceText": "コンビ¥550~",
-    "price": "550",
-    "description": "",
-    "nut": [],
-    "notice": [
-      "※一部店舗では価格が異なります。"
-    ]
-  },
-  {
     "link": "https://www.mcdonalds.co.jp/products/9030/",
     "name": "チキンマックナゲット® 15ピース",
     "priceText": "単品¥490~",
@@ -1559,7 +1550,7 @@
       "エネルギー    262kcal",
       "たんぱく質    15.3g",
       "脂質    15.9g",
-      "飽和脂肪酸    5.9g",
+      "飽和脂肪酸    5.90g",
       "炭水化物    14.4g",
       "糖類    0g",
       "食塩相当量    1.2g"
@@ -2863,6 +2854,17 @@
     ]
   },
   {
+    "link": "https://www.mcdonalds.co.jp/products/801827/",
+    "name": "ボロネーゼグラコロ満喫セット",
+    "priceText": "バリューセット¥860~",
+    "price": "860",
+    "description": "",
+    "nut": [],
+    "notice": [
+      "※一部店舗及びデリバリーでは価格が異なります。"
+    ]
+  },
+  {
     "link": "https://www.mcdonalds.co.jp/products/45210/",
     "name": "マカロン チョコレート",
     "priceText": "単品¥200~",
@@ -3197,26 +3199,6 @@
     ]
   },
   {
-    "link": "https://www.mcdonalds.co.jp/products/6010/",
-    "name": "マックフィズ® 丸搾りレモネード",
-    "priceText": "単品¥300~",
-    "price": "300",
-    "description": "レモンを丸ごと搾った果汁を使用した、フルーティーですっきりとした酸味と、レモネードらしい甘みとコクを楽しめます。",
-    "nut": [
-      "エネルギー    147kcal",
-      "たんぱく質    0.0g",
-      "脂質    0.0g",
-      "飽和脂肪酸    0.00g",
-      "炭水化物    36.8g",
-      "糖類    34g",
-      "食塩相当量    0.1g"
-    ],
-    "notice": [
-      "※レモン果汁1%使用",
-      "※一部店舗及びデリバリーでは価格が異なります。"
-    ]
-  },
-  {
     "link": "https://www.mcdonalds.co.jp/products/2050/#pdpNutrition",
     "name": "マックフライポテト® (Lサイズ)",
     "priceText": "Lサイズ¥400~",
@@ -3409,26 +3391,6 @@
     ],
     "notice": [
       "※無果汁",
-      "※一部店舗では価格が異なります。"
-    ]
-  },
-  {
-    "link": "https://www.mcdonalds.co.jp/products/6020/",
-    "name": "マックフロート® 丸搾りレモネード",
-    "priceText": "単品¥380~",
-    "price": "380",
-    "description": "レモン果汁を使用した、フルーティーですっきりとした酸味のある炭酸に、ソフトクリームをトッピングしたデザートドリンク。",
-    "nut": [
-      "エネルギー    254kcal",
-      "たんぱく質    2.9g",
-      "脂質    2.9g",
-      "飽和脂肪酸    1.77g",
-      "炭水化物    54.0g",
-      "糖類    48g",
-      "食塩相当量    0.2g"
-    ],
-    "notice": [
-      "※レモン果汁1%使用",
       "※一部店舗では価格が異なります。"
     ]
   },
@@ -3670,7 +3632,7 @@
     "name": "栄養バランスチェック",
     "priceText": "",
     "price": "",
-    "description": "最終更新日2026年11月17日",
+    "description": "最終更新日2026年11月24日",
     "nut": [],
     "notice": []
   },
